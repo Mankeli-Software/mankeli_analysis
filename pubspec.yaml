@@ -1,0 +1,6 @@
+name: analysis
+version: 1.0.0
+publish_to: none
+
+environment:
+  sdk: '>=2.18.4 <3.0.0'
