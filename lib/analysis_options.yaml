@@ -206,8 +206,6 @@ dart_code_metrics:
     # configures the list of preset configurations
   metrics:
     # configures the list of reported metrics
-  metrics-exclude:
-    # configures the list of files that should be ignored by metrics
   rules:
     - arguments-ordering
     - avoid-double-slash-imports
