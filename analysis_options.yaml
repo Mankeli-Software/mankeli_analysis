@@ -1,1 +1,1 @@
-include: package:mankeli_analysis/analysis_options.yaml
+include: package:mankeli_analysis/lib/analysis_options.yaml
