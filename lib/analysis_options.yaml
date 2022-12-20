@@ -266,10 +266,10 @@ dart_code_metrics:
         min-length: 3
         max-length: 40
     - avoid-banned-imports:
-      entries:
-        - paths: ['lib/**']
-          deny: ['package:**/src/**']
-          message: 'You should not import straight from the src folder.'
+        entries:
+          - paths: ['**']
+            deny: ['**/src/**']
+            message: 'You should not import straight from the src folder.'
         # - paths: ['**/*_cubit.dart']
         #   deny:
         #     - package:flutter/material.dart
