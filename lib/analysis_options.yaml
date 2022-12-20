@@ -12,7 +12,9 @@ analyzer:
   exclude:
     - test/.test_coverage.dart
     - lib/generated_plugin_registrant.dart
-    - lib/generated/**
+    - '**/generated/**'
+    - '**/*.g.dart'
+    - '**/*.gr.dart'
 
   plugins:
     - dart_code_metrics
@@ -205,3 +207,68 @@ dart_code_metrics:
   rules:
     - arguments-ordering
     - no-empty-block
+    - avoid-double-slash-imports
+    - avoid-duplicate-exports
+    - avoid-global-state
+    - avoid-missing-enum-constant-in-map
+    - avoid-non-ascii-symbols
+    - avoid-top-level-members-in-tests
+    - avoid-unnecessary-conditionals
+    - avoid-unnecessary-type-casts
+    - avoid-unrelated-type-assertions
+    - avoid-unused-parameters
+    - missing-test-assertion
+    - newline-before-return
+    - no-boolean-literal-compare
+    - no-empty-block
+    - no-equal-arguments
+    - no-equal-then-else
+    - no-magic-number
+    - prefer-async-await
+    - prefer-commenting-analyzer-ignores
+    - prefer-conditional-expressions
+    - prefer-correct-test-file-name
+    - prefer-enums-by-name
+    - prefer-first
+    - prefer-last
+    - prefer-immediate-return
+    - prefer-iterable-of
+    - prefer-moving-to-variable
+    - prefer-trailing-comma
+    - always-remove-listener
+    - avoid-expanded-as-spacer
+    - avoid-returning-widgets
+    - avoid-shrink-wrap-in-lists
+    - avoid-wrapping-in-padding
+    - prefer-const-border-radius
+    - avoid-border-all
+    - prefer-correct-edge-insets-constructor
+    - prefer-extracting-callbacks
+    - prefer-using-list-view
+    - prefer-static-class:
+        ignore-names:
+          - (**)_test.dart
+    - prefer-match-file-name:
+        exclude:
+          - (**)_test.dart
+          - test/**
+          - misc/**
+          - main.dart
+    - avoid-nested-conditional-expressions:
+      acceptable-level: 1
+    - prefer-correct-identifier-length:
+        exceptions: ['a', 'b', 'i', 'j']
+        min-identifier-length: 3
+        max-identifier-length: 40
+    - prefer-correct-type-name:
+        excluded: []
+        min-length: 3
+        max-length: 40
+    - avoid-banned-imports:
+      entries:
+        - paths: ['*cubit\.dart']
+          deny:
+            - package:flutter/material.dart
+            - package:flutter/cupertino.dart
+            - package:flutter/widgets.dart
+          message: 'You should not import material, cupertino or widgets in cubits, keep UI separate from business logic.'
