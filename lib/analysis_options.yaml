@@ -241,8 +241,13 @@ dart_code_metrics:
     - prefer-const-border-radius
     - avoid-border-all
     - prefer-correct-edge-insets-constructor
-    - prefer-extracting-callbacks
     - prefer-using-list-view
+    - prefer-extracting-callbacks:
+        ignored-named-arguments:
+          - listenWhen
+          - buildWhen
+          - listener
+        allowed-line-count: 3
     - prefer-static-class:
         ignore-names:
           - '**_test.dart'
