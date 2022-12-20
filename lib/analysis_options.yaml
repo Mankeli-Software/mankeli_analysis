@@ -13,9 +13,9 @@ analyzer:
     - test/.test_coverage.dart
     - lib/generated_plugin_registrant.dart
     - '**/generated/**'
-    - '**.g.dart'
-    - '**.gr.dart'
-    - '**.freezed.dart'
+    - '**/*.g.dart'
+    - '**/*.gr.dart'
+    - '**/*.freezed.dart'
 
   plugins:
     - dart_code_metrics
@@ -267,7 +267,7 @@ dart_code_metrics:
         max-length: 40
     - avoid-banned-imports:
       entries:
-        - paths: ['**']
+        - paths: ['']
           deny:
             - '**/src/**'
           message: 'You should not import straight from the src folder.'
