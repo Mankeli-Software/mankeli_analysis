@@ -268,8 +268,7 @@ dart_code_metrics:
     - avoid-banned-imports:
       entries:
         - paths: ['lib/**']
-          deny:
-            - '**/src/**'
+          deny: ['package:**/src/**']
           message: 'You should not import straight from the src folder.'
         # - paths: ['**/*_cubit.dart']
         #   deny:
