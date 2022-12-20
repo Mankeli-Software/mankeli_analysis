@@ -22,9 +22,9 @@ analyzer:
 
 linter:
   rules:
-    - prefer_relative_imports
     - always_declare_return_types
     - always_require_non_null_named_parameters
+    - always_use_package_imports
     - annotate_overrides
     - avoid_bool_literals_in_conditional_expressions
     - avoid_catching_errors
