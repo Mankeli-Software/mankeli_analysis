@@ -261,11 +261,11 @@ dart_code_metrics:
         excluded: []
         min-length: 3
         max-length: 40
-    - avoid-banned-imports:
-      entries:
-        - paths: ['**/*_cubit.dart']
-          deny:
-            - package:flutter/material.dart
-            - package:flutter/cupertino.dart
-            - package:flutter/widgets.dart
-          message: 'You should not import material, cupertino or widgets in cubits, keep UI separate from business logic.'
+    # - avoid-banned-imports:
+    #   entries:
+    #     - paths: ['**/*_cubit.dart']
+    #       deny:
+    #         - package:flutter/material.dart
+    #         - package:flutter/cupertino.dart
+    #         - package:flutter/widgets.dart
+    #       message: 'You should not import material, cupertino or widgets in cubits, keep UI separate from business logic.'
