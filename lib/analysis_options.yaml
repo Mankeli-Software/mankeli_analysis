@@ -249,22 +249,20 @@ dart_code_metrics:
     - prefer-static-class:
         ignore-names:
           - '**_test.dart'
-    # - prefer-match-file-name:
-    #     exclude:
-    #       - (**)_test.dart
-    #       - test/**
-    #       - misc/**
-    #       - main.dart
-    # - avoid-nested-conditional-expressions:
-    #   acceptable-level: 1
-    # - prefer-correct-identifier-length:
-    #     exceptions: ['a', 'b', 'i', 'j']
-    #     min-identifier-length: 3
-    #     max-identifier-length: 40
-    # - prefer-correct-type-name:
-    #     excluded: []
-    #     min-length: 3
-    #     max-length: 40
+    - prefer-match-file-name:
+        exclude:
+          - '**_test.dart'
+          - main.dart
+    - avoid-nested-conditional-expressions:
+      acceptable-level: 1
+    - prefer-correct-identifier-length:
+        exceptions: ['a', 'b', 'i', 'j']
+        min-identifier-length: 3
+        max-identifier-length: 40
+    - prefer-correct-type-name:
+        excluded: []
+        min-length: 3
+        max-length: 40
     # - avoid-banned-imports:
     #   entries:
     #     - paths: ['**/*cubit\.dart']
