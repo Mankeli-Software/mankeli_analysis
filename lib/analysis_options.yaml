@@ -247,14 +247,14 @@ dart_code_metrics:
           - listenWhen
           - buildWhen
           - listener
-        allowed-line-count: 3
+        allowed-line-count: 6
     - prefer-static-class:
         ignore-names:
           - '**_test.dart'
     - prefer-match-file-name:
         exclude:
           - '**_test.dart'
-          - main.dart
+          - '**/main.dart'
     - avoid-nested-conditional-expressions:
       acceptable-level: 1
     - prefer-correct-identifier-length:
@@ -267,7 +267,7 @@ dart_code_metrics:
         max-length: 40
     - avoid-banned-imports:
       entries:
-        - paths: ['**/lib/**']
+        - paths: ['**']
           deny:
             - '**/src/**'
           message: 'You should not import straight from the src folder.'
