@@ -13,8 +13,9 @@ analyzer:
     - test/.test_coverage.dart
     - lib/generated_plugin_registrant.dart
     - '**/generated/**'
-    - '**/*.g.dart'
-    - '**/*.gr.dart'
+    - '**.g.dart'
+    - '**.gr.dart'
+    - '**.freezed.dart'
 
   plugins:
     - dart_code_metrics
@@ -245,9 +246,9 @@ dart_code_metrics:
     - prefer-correct-edge-insets-constructor
     - prefer-extracting-callbacks
     - prefer-using-list-view
-    # - prefer-static-class:
-    #     ignore-names:
-    #       - '**_test.dart'
+    - prefer-static-class:
+        ignore-names:
+          - '**_test.dart'
     # - prefer-match-file-name:
     #     exclude:
     #       - (**)_test.dart
