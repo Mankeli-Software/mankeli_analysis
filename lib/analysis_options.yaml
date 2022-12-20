@@ -222,7 +222,6 @@ dart_code_metrics:
     - newline-before-return
     - no-boolean-literal-compare
     - no-equal-then-else
-    - no-magic-number
     - prefer-async-await
     - prefer-commenting-analyzer-ignores
     - prefer-conditional-expressions
