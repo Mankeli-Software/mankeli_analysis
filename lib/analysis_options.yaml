@@ -267,7 +267,7 @@ dart_code_metrics:
         max-length: 40
     - avoid-banned-imports:
       entries:
-        - paths: ['']
+        - paths: ['lib/**']
           deny:
             - '**/src/**'
           message: 'You should not import straight from the src folder.'
