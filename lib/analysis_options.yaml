@@ -263,7 +263,7 @@ dart_code_metrics:
         max-length: 40
     - avoid-banned-imports:
       entries:
-        - paths: ['**/*_cubit\.dart']
+        - paths: ['**/*_cubit.dart']
           deny:
             - package:flutter/material.dart
             - package:flutter/cupertino.dart
