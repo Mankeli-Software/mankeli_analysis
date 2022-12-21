@@ -268,6 +268,6 @@ dart_code_metrics:
     - avoid-banned-imports:
         entries:
         - paths: ['lib/.*']
-          deny: ['lib/features/.*/.*']
+          deny: ['.*/features/.*/.*']
           message: 'You should not import straight from a feature, import from features/features.dart instead.'
 
