@@ -276,4 +276,7 @@ dart_code_metrics:
         - paths: ['lib/.*']
           deny: ['.*/src/.*']
           message: 'You should not import anything from /src folders'
+        - paths: ['lib/.*']
+          deny: ['package:flutter_gen/gen_l10n/app_localizations.dart']
+          message: "This package is not auto-importable, so we won't use this import of it. Use 'utils/utils.dart' instead."
 
