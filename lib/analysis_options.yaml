@@ -269,5 +269,8 @@ dart_code_metrics:
         entries:
         - paths: ['lib/.*']
           deny: ['.*/features/.*/.*']
-          message: 'You should not import straight from a feature, import from features/features.dart instead.'
+          message: 'You should not import straight from a feature, as those imports contain stuff that is not relevant outside of the feature.'
+        - paths: ['lib/.*']
+          deny: ['.*/.*\.internal\.dart']
+          message: 'You should not import .internal.dart files, as they contain stuff thats not relevant to outside of the feature.'
 
