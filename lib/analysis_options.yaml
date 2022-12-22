@@ -266,7 +266,7 @@ dart_code_metrics:
         min-length: 3
         max-length: 40
     - avoid-banned-imports:
-        exclude: ['.*/cubit.dart', '.*/view.dart']
+        exclude: ['.*/cubit\.dart', '.*/view\.dart']
         entries:
         - paths: ['lib/.*']
           deny: ['.*/features/.*/.*/.*']
