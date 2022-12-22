@@ -267,7 +267,7 @@ dart_code_metrics:
         max-length: 40
     - avoid-banned-imports:
         entries:
-        - paths: ['lib/^(?!view$)\.dart']
+        - paths: ['lib/.*']
           deny: ['.*/features/.*/.*/.*']
           message: 'You should not import straight from a feature, as those imports contain stuff that is not relevant outside of the feature.'
         - paths: ['lib/.*']
