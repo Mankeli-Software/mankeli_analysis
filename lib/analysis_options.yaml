@@ -269,10 +269,8 @@ dart_code_metrics:
         entries:
         - paths: ['lib/.*']
           deny: ['.*/features/.*/.*/.*']
+          exclude: ['.*/cubit.dart', '.*/view.dart']
           message: 'You should not import straight from a feature, as those imports contain stuff that is not relevant outside of the feature.'
-        - paths: ['lib/.*']
-          deny: ['.*/.*\.internal\.dart']
-          message: 'You should not import .internal.dart files, as they contain stuff thats not relevant to outside of the feature.'
         - paths: ['lib/.*']
           deny: ['.*/src/.*']
           message: 'You should not import anything from /src folders'
