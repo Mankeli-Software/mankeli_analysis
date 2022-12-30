@@ -208,7 +208,6 @@ linter:
 dart_code_metrics:
   rules:
     - arguments-ordering
-    - no-empty-block
     - avoid-double-slash-imports
     - avoid-duplicate-exports
     - avoid-global-state
@@ -243,6 +242,9 @@ dart_code_metrics:
     - avoid-border-all
     - prefer-correct-edge-insets-constructor
     - prefer-using-list-view
+    - no-empty-block:
+        exclude:
+          - '**_test.dart'
     - prefer-extracting-callbacks:
         ignored-named-arguments:
           - listenWhen
