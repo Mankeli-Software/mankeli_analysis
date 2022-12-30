@@ -16,6 +16,7 @@ analyzer:
     - '**/*.g.dart'
     - '**/*.gr.dart'
     - '**/*.freezed.dart'
+    - '**firebase_options.dart'
 
   plugins:
     - dart_code_metrics
