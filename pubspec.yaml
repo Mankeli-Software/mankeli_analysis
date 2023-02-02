@@ -1,6 +1,9 @@
 name: mankeli_analysis
-version: 1.0.0
-publish_to: none
+description: A set of linting rules for static analysis. This package is used internally at Mankeli Software.
+version: 1.1.0
+homepage: https://mankeli.co
+repository: https://github.com/Mankeli-Software/mankeli_analysis
+issue_tracker: https://github.com/Mankeli-Software/mankeli_analysis/issues
 
 environment:
   sdk: '>=2.18.4 <3.0.0'
