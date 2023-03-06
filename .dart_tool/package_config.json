@@ -3,199 +3,205 @@
   "packages": [
     {
       "name": "_fe_analyzer_shared",
-      "rootUri": "file:///Users/om/.pub-cache/hosted/pub.dartlang.org/_fe_analyzer_shared-51.0.0",
+      "rootUri": "file:///Users/om/.pub-cache/hosted/pub.dev/_fe_analyzer_shared-52.0.0",
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
       "name": "analyzer",
-      "rootUri": "file:///Users/om/.pub-cache/hosted/pub.dartlang.org/analyzer-5.3.1",
+      "rootUri": "file:///Users/om/.pub-cache/hosted/pub.dev/analyzer-5.4.0",
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
       "name": "analyzer_plugin",
-      "rootUri": "file:///Users/om/.pub-cache/hosted/pub.dartlang.org/analyzer_plugin-0.11.2",
+      "rootUri": "file:///Users/om/.pub-cache/hosted/pub.dev/analyzer_plugin-0.11.2",
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
       "name": "ansicolor",
-      "rootUri": "file:///Users/om/.pub-cache/hosted/pub.dartlang.org/ansicolor-2.0.1",
+      "rootUri": "file:///Users/om/.pub-cache/hosted/pub.dev/ansicolor-2.0.1",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "args",
-      "rootUri": "file:///Users/om/.pub-cache/hosted/pub.dartlang.org/args-2.3.1",
+      "rootUri": "file:///Users/om/.pub-cache/hosted/pub.dev/args-2.3.2",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "2.18"
     },
     {
       "name": "async",
-      "rootUri": "file:///Users/om/.pub-cache/hosted/pub.dartlang.org/async-2.10.0",
+      "rootUri": "file:///Users/om/.pub-cache/hosted/pub.dev/async-2.10.0",
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
     {
       "name": "collection",
-      "rootUri": "file:///Users/om/.pub-cache/hosted/pub.dartlang.org/collection-1.17.0",
+      "rootUri": "file:///Users/om/.pub-cache/hosted/pub.dev/collection-1.17.1",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "2.18"
     },
     {
       "name": "convert",
-      "rootUri": "file:///Users/om/.pub-cache/hosted/pub.dartlang.org/convert-3.1.1",
+      "rootUri": "file:///Users/om/.pub-cache/hosted/pub.dev/convert-3.1.1",
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
     {
       "name": "crypto",
-      "rootUri": "file:///Users/om/.pub-cache/hosted/pub.dartlang.org/crypto-3.0.2",
+      "rootUri": "file:///Users/om/.pub-cache/hosted/pub.dev/crypto-3.0.2",
       "packageUri": "lib/",
       "languageVersion": "2.14"
     },
     {
       "name": "csslib",
-      "rootUri": "file:///Users/om/.pub-cache/hosted/pub.dartlang.org/csslib-0.17.2",
+      "rootUri": "file:///Users/om/.pub-cache/hosted/pub.dev/csslib-0.17.2",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "dart_code_metrics",
-      "rootUri": "file:///Users/om/.pub-cache/hosted/pub.dartlang.org/dart_code_metrics-5.2.1",
+      "rootUri": "file:///Users/om/.pub-cache/hosted/pub.dev/dart_code_metrics-5.5.1",
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
     {
+      "name": "dart_code_metrics_presets",
+      "rootUri": "file:///Users/om/.pub-cache/hosted/pub.dev/dart_code_metrics_presets-1.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
       "name": "dart_style",
-      "rootUri": "file:///Users/om/.pub-cache/hosted/pub.dartlang.org/dart_style-2.2.4",
+      "rootUri": "file:///Users/om/.pub-cache/hosted/pub.dev/dart_style-2.2.4",
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
       "name": "file",
-      "rootUri": "file:///Users/om/.pub-cache/hosted/pub.dartlang.org/file-6.1.4",
+      "rootUri": "file:///Users/om/.pub-cache/hosted/pub.dev/file-6.1.4",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "glob",
-      "rootUri": "file:///Users/om/.pub-cache/hosted/pub.dartlang.org/glob-2.1.1",
+      "rootUri": "file:///Users/om/.pub-cache/hosted/pub.dev/glob-2.1.1",
       "packageUri": "lib/",
       "languageVersion": "2.15"
     },
     {
       "name": "html",
-      "rootUri": "file:///Users/om/.pub-cache/hosted/pub.dartlang.org/html-0.15.1",
+      "rootUri": "file:///Users/om/.pub-cache/hosted/pub.dev/html-0.15.1",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "http",
-      "rootUri": "file:///Users/om/.pub-cache/hosted/pub.dartlang.org/http-0.13.5",
+      "rootUri": "file:///Users/om/.pub-cache/hosted/pub.dev/http-0.13.5",
       "packageUri": "lib/",
       "languageVersion": "2.14"
     },
     {
       "name": "http_parser",
-      "rootUri": "file:///Users/om/.pub-cache/hosted/pub.dartlang.org/http_parser-4.0.2",
+      "rootUri": "file:///Users/om/.pub-cache/hosted/pub.dev/http_parser-4.0.2",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "json_annotation",
-      "rootUri": "file:///Users/om/.pub-cache/hosted/pub.dartlang.org/json_annotation-4.7.0",
+      "rootUri": "file:///Users/om/.pub-cache/hosted/pub.dev/json_annotation-4.8.0",
       "packageUri": "lib/",
-      "languageVersion": "2.17"
+      "languageVersion": "2.18"
     },
     {
       "name": "meta",
-      "rootUri": "file:///Users/om/.pub-cache/hosted/pub.dartlang.org/meta-1.8.0",
+      "rootUri": "file:///Users/om/.pub-cache/hosted/pub.dev/meta-1.9.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "package_config",
-      "rootUri": "file:///Users/om/.pub-cache/hosted/pub.dartlang.org/package_config-2.1.0",
+      "rootUri": "file:///Users/om/.pub-cache/hosted/pub.dev/package_config-2.1.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "path",
-      "rootUri": "file:///Users/om/.pub-cache/hosted/pub.dartlang.org/path-1.8.3",
+      "rootUri": "file:///Users/om/.pub-cache/hosted/pub.dev/path-1.8.3",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "petitparser",
-      "rootUri": "file:///Users/om/.pub-cache/hosted/pub.dartlang.org/petitparser-5.1.0",
+      "rootUri": "file:///Users/om/.pub-cache/hosted/pub.dev/petitparser-5.1.0",
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
     {
       "name": "platform",
-      "rootUri": "file:///Users/om/.pub-cache/hosted/pub.dartlang.org/platform-3.1.0",
+      "rootUri": "file:///Users/om/.pub-cache/hosted/pub.dev/platform-3.1.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "process",
-      "rootUri": "file:///Users/om/.pub-cache/hosted/pub.dartlang.org/process-4.2.4",
+      "rootUri": "file:///Users/om/.pub-cache/hosted/pub.dev/process-4.2.4",
       "packageUri": "lib/",
       "languageVersion": "2.14"
     },
     {
       "name": "pub_semver",
-      "rootUri": "file:///Users/om/.pub-cache/hosted/pub.dartlang.org/pub_semver-2.1.3",
+      "rootUri": "file:///Users/om/.pub-cache/hosted/pub.dev/pub_semver-2.1.3",
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
     {
       "name": "pub_updater",
-      "rootUri": "file:///Users/om/.pub-cache/hosted/pub.dartlang.org/pub_updater-0.2.3",
+      "rootUri": "file:///Users/om/.pub-cache/hosted/pub.dev/pub_updater-0.2.4",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "source_span",
-      "rootUri": "file:///Users/om/.pub-cache/hosted/pub.dartlang.org/source_span-1.9.1",
+      "rootUri": "file:///Users/om/.pub-cache/hosted/pub.dev/source_span-1.9.1",
       "packageUri": "lib/",
       "languageVersion": "2.14"
     },
     {
       "name": "string_scanner",
-      "rootUri": "file:///Users/om/.pub-cache/hosted/pub.dartlang.org/string_scanner-1.2.0",
+      "rootUri": "file:///Users/om/.pub-cache/hosted/pub.dev/string_scanner-1.2.0",
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
     {
       "name": "term_glyph",
-      "rootUri": "file:///Users/om/.pub-cache/hosted/pub.dartlang.org/term_glyph-1.2.1",
+      "rootUri": "file:///Users/om/.pub-cache/hosted/pub.dev/term_glyph-1.2.1",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "typed_data",
-      "rootUri": "file:///Users/om/.pub-cache/hosted/pub.dartlang.org/typed_data-1.3.1",
+      "rootUri": "file:///Users/om/.pub-cache/hosted/pub.dev/typed_data-1.3.1",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "watcher",
-      "rootUri": "file:///Users/om/.pub-cache/hosted/pub.dartlang.org/watcher-1.0.2",
+      "rootUri": "file:///Users/om/.pub-cache/hosted/pub.dev/watcher-1.0.2",
       "packageUri": "lib/",
       "languageVersion": "2.14"
     },
     {
       "name": "xml",
-      "rootUri": "file:///Users/om/.pub-cache/hosted/pub.dartlang.org/xml-6.2.2",
+      "rootUri": "file:///Users/om/.pub-cache/hosted/pub.dev/xml-6.2.2",
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
     {
       "name": "yaml",
-      "rootUri": "file:///Users/om/.pub-cache/hosted/pub.dartlang.org/yaml-3.1.1",
+      "rootUri": "file:///Users/om/.pub-cache/hosted/pub.dev/yaml-3.1.1",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -206,7 +212,7 @@
       "languageVersion": "2.18"
     }
   ],
-  "generated": "2022-12-19T13:13:03.593622Z",
+  "generated": "2023-02-02T07:24:44.806413Z",
   "generator": "pub",
-  "generatorVersion": "2.18.5"
+  "generatorVersion": "2.19.0"
 }

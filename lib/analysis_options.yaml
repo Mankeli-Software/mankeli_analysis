@@ -17,6 +17,7 @@ analyzer:
     - '**/*.gr.dart'
     - '**/*.freezed.dart'
     - '**firebase_options.dart'
+    - '**/**.gen.dart'
 
   plugins:
     - dart_code_metrics
@@ -207,8 +208,6 @@ linter:
 
 dart_code_metrics:
   rules:
-    - arguments-ordering
-    - no-empty-block
     - avoid-double-slash-imports
     - avoid-duplicate-exports
     - avoid-global-state
@@ -243,6 +242,9 @@ dart_code_metrics:
     - avoid-border-all
     - prefer-correct-edge-insets-constructor
     - prefer-using-list-view
+    - no-empty-block:
+        exclude:
+          - '**_test.dart'
     - prefer-extracting-callbacks:
         ignored-named-arguments:
           - listenWhen
@@ -266,15 +268,5 @@ dart_code_metrics:
         excluded: []
         min-length: 3
         max-length: 40
-    - avoid-banned-imports:
-        entries:
-        - paths: ['lib/.*']
-          deny: ['.*/features/.*/.*/.*']
-          message: 'You should not import straight from a feature, as those imports contain stuff that is not relevant outside of the feature.'
-        - paths: ['lib/.*']
-          deny: ['.*/src/.*']
-          message: 'You should not import anything from /src folders'
-        - paths: ['lib/.*']
-          deny: ['package:flutter_gen/gen_l10n/app_localizations.dart']
-          message: "This package is not auto-importable, so we won't use this import of it. Use 'utils/utils.dart' instead."
+
 
