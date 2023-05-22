@@ -250,7 +250,7 @@ dart_code_metrics:
           - listenWhen
           - buildWhen
           - listener
-        allowed-line-count: 6
+        allowed-line-count: 10
     - prefer-static-class:
         ignore-names:
           - '**_test.dart'
@@ -261,7 +261,7 @@ dart_code_metrics:
     - avoid-nested-conditional-expressions:
       acceptable-level: 1
     - prefer-correct-identifier-length:
-        exceptions: ['a', 'b', 'i', 'j']
+        exceptions: ['a', 'b', 'i', 'j', 's1', 's2']
         min-identifier-length: 3
         max-identifier-length: 40
     - prefer-correct-type-name:
