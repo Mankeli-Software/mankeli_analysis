@@ -6,7 +6,7 @@ repository: https://github.com/Mankeli-Software/mankeli_analysis
 issue_tracker: https://github.com/Mankeli-Software/mankeli_analysis/issues
 
 environment:
-  sdk: '>=2.18.4 <3.0.0'
+  sdk: '>=2.18.4 <4.0.0'
 
 dev_dependencies:
   dart_code_metrics: any
