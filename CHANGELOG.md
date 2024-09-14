@@ -1,5 +1,9 @@
 # mankeli_analysis changelog
 
+## 1.1.2
+
+- Removes DCM dependencies
+
 ## 1.1.1
 
 - Updates documentation
